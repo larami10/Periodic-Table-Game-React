@@ -21,18 +21,4 @@ A simple guessing game based on the Periodic Table of elements. It has the follo
 
 ## How to use the Project
 
-You can clone the repository and:
-
-```
-cd Periodic-Table-Game-React
-```
-
-### To Run Program
-
-```
-npm install
-```
-
-```
-npm start
-```
+This project is being hosted by Firebase [Periodic Table Game using React](https://periodic-table-game-react.web.app/)
