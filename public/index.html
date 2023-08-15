@@ -39,5 +39,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBX_mGnQyaMImd3VPjMALbP4gY56nJZ6Bg",
+        authDomain: "periodic-table-game-react.firebaseapp.com",
+        projectId: "periodic-table-game-react",
+        storageBucket: "periodic-table-game-react.appspot.com",
+        messagingSenderId: "90365127440",
+        appId: "1:90365127440:web:b5131e2dcda3589e201395",
+        measurementId: "G-MCV25YLWCW"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
